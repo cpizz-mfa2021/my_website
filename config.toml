@@ -93,7 +93,7 @@ disqusShortname = ""
     
     [[params.tiles.showcase]]
       title = "About Me"
-      subtitle = "Activities and hobbies that I enjoy"
+      subtitle = "A background about myself"
       image = "static/img/pic01.jpg"
       url = "blogs/aliquam"
 
