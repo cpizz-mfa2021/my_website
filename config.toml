@@ -38,7 +38,7 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Christian Pizzuti's Portfolio Website"
-    subtitle = "Work I have created"
+    subtitle = "Welcome!"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -82,7 +82,7 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "Christian Pizzuti's Webpage"
-    subtitle = "This page is dedicated to displaying some work that I have created!"
+    subtitle = "This page is dedicated to displaying some information about myself and work that I have created!"
     buttonText = "Welcome!"
     image = "banner.jpg"
 
@@ -92,8 +92,8 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "My Hobbies"
-      subtitle = "Some activities that I enjoy"
+      title = "About Me"
+      subtitle = "Activities and hobbies that I enjoy"
       image = "pic01.jpg"
       url = "blogs/aliquam"
 
