@@ -101,19 +101,19 @@ disqusShortname = ""
       title = "Which countries love beer the most!?"
       subtitle = "Analysis on beer servings by country"
       image = "pic02.jpg"
-      url = "projects/Project 1"
+      url = "projects/project1"
 
     [[params.tiles.showcase]]
       title = "The Climate"
       subtitle = "Learning about temperature anomalies"
       image = "pic03.jpg"
-      url = "blogs/magna"
+      url = "projects/project2"
 
     [[params.tiles.showcase]]
       title = "The GDP of Germany, India and the United States"
       subtitle = "Comparing the GDP of these 3 very different countries"
       image = "pic04.jpg"
-      url = "blogs/ipsum"
+      url = "projects/project3"
 
     #[[params.tiles.showcase]]
      #title = "Consequat"
