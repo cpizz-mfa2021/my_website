@@ -5,9 +5,9 @@ categories:
 date: "2017-10-31T22:42:51-05:00"
 description: A brief background about myself.
 draft: false
-image: "img/pic01.jpg"
+image: pic01.jpg
 keywords: ""
-slug: aboutme
+slug: aliquam
 title: About Me
 ---
 Thanks for checking out my webpage!
