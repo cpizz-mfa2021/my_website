@@ -38,7 +38,7 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Christian Pizzuti's Portfolio Website"
-    subtitle = "A page about the work I have created"
+    subtitle = "Work I have created"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
