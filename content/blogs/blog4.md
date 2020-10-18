@@ -5,8 +5,13 @@ categories:
 date: "2017-10-31T22:42:51-05:00"
 description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
 draft: false
-image: pic07.jpg
+image: "img/pic01.jpg"
 keywords: ""
 slug: aliquam
-title: Aliquam
+title: About Me
 ---
+Thanks for checking out my webpage!
+
+I was born and raised in Canada and I studied business and finance in my undergraduate degree. I enjoy playing sports in my spare time including; football, rugby, soccer and basketball. I have played competitively throughout most of my life.
+
+Currently, I am studying at London Business School in the Masters in Financial Analysis program. I have the hopes of pursuing a career in Corporate Finance & Advisory after I complete my studies.
