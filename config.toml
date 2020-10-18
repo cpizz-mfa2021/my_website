@@ -104,14 +104,14 @@ disqusShortname = ""
       url = "blogs/tempus"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "The Climate"
+      subtitle = "Learning about temperature anomalies"
       image = "pic03.jpg"
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "The GDP of Germany, India and the United States"
+      subtitle = "Comparing the GDP of these 3 very different countries"
       image = "pic04.jpg"
       url = "blogs/ipsum"
 
