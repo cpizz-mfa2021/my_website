@@ -1,0 +1,41 @@
+---
+title: "Beer Servings"
+output: html_document
+---
+
+```{r}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
+library(mosaic)
+library(ggthemes)
+library(lubridate)
+library(fivethirtyeight)
+library(here)
+library(skimr)
+library(janitor)
+library(vroom)
+library(tidyquant)
+library(rvest)    # scrape websites
+library(purrr)  
+library(lubridate) #to handle dates
+library(dplyr)
+library(patchwork)
+library(fivethirtyeight)
+
+data(drinks)
+
+beer_plot <- drinks %>%
+  arrange(desc(beer_servings)) %>%
+  select(country, beer_servings) %>% 
+  head(25)
+
+#Make the plot
+ggplot(beer_plot,aes(x=reorder(country,-beer_servings),y=beer_servings))+
+  labs(title = "Top 25 Beer Consuming Countries", x="Country", y = "Beer Servings")+
+  geom_bar(stat="identity", fill = 	"#FFFF66")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+
+
