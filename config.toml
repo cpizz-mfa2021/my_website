@@ -47,9 +47,9 @@ disqusShortname = ""
       name = "Home"
       url = "#"
 
-    [[params.navigation.links]]
-      name = "My Blogs"
-      url = "blogs"
+    #[[params.navigation.links]]
+     #name = "My Blogs"
+      #url = "blogs"
 
     #[[params.navigation.links]]
      # name = "Generic Blog"
@@ -136,12 +136,12 @@ disqusShortname = ""
     # To add more blogs just copy and paste the code.
 
   # Section Type Two
-  [params.two]
-    enable = true
-    title = "Check out my blogs"
-    subtitle = """Click on the link below to see some of my projects!"""
-    buttonText = "Let's Go!"
-    url = "blogs"
+  #[params.two]
+    #enable = true
+    #title = "Check out my blogs"
+    #subtitle = """Click on the link below to see some of my projects!"""
+    #buttonText = "Let's Go!"
+    #url = "blogs"
 
 
   # Contact section
