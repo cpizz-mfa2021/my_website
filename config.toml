@@ -92,8 +92,8 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "My Hobbies"
+      subtitle = "Some activities that I enjoy"
       image = "pic01.jpg"
       url = "blogs/aliquam"
 
@@ -138,13 +138,10 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
+    title = "About Me"
+    subtitle = """This section provides some brief information about myself. 
+    I was born and raised in Canada and I have recently moved to the United Kingdom to study at London Business School. I enjoy playing sports, reading about finance and spending time with family and friends"""
+    buttonText = "Learn More"
     url = "blogs"
 
 
@@ -187,17 +184,17 @@ disqusShortname = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Christian Pizzuti"
 
     # Uses font awesome icons
     [[params.footer.social]]
       icon = "fa-twitter"
-      url= "https://www.twitter.com"
+      url= "https://www.twitter.com/nfl"
       label = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/nfl"
       label = "Facebook"
 
     [[params.footer.social]]
@@ -212,7 +209,7 @@ disqusShortname = ""
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/christian-p-5183b810b/"
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
