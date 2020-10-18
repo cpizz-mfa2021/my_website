@@ -10,4 +10,3 @@ keywords: ""
 slug: ipsum
 title: Check out the top beer consuming countries!
 ---
-
