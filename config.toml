@@ -138,10 +138,10 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "About Me"
-    subtitle = """This section provides some brief information about myself. 
-    I was born and raised in Canada and I have recently moved to the United Kingdom to study at London Business School. I enjoy playing sports, reading about finance and spending time with family and friends"""
-    buttonText = "Learn More"
+    title = "My Projects"
+    subtitle = """I have recently been creating various projects in R. 
+    Click on the link below to see some of my projects!"""
+    buttonText = "Check out Projects"
     url = "blogs"
 
 
