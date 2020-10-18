@@ -101,7 +101,7 @@ disqusShortname = ""
       title = "Which countries love beer the most!?"
       subtitle = "Analysis on beer servings by country"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "projects/Project 1"
 
     [[params.tiles.showcase]]
       title = "The Climate"
