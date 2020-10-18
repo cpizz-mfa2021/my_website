@@ -1,0 +1,28 @@
+---
+title: "Weather"
+output: html_document
+---
+
+```{r}
+weather <- 
+  read_csv("https://data.giss.nasa.gov/gistemp/tabledata_v3/NH.Ts+dSST.csv", 
+           skip = 1, 
+           na = "***")
+
+tidyweather <- weather %>%
+select(Year,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec)%>%
+pivot_longer(cols = Jan:Dec,names_to ="Month",values_to ="delta")
+
+tidyweather <- tidyweather %>%
+  mutate(date = ymd(paste(as.character(Year), Month, "1")),
+         month = month(date),
+         year = year(date))
+
+ggplot(tidyweather, aes(x=date, y = delta))+
+  geom_point()+
+  geom_smooth(color="red") +
+  theme_bw() +
+  labs (title = "Weather Anomalies") + facet_wrap(~Month)
+
+
+```
