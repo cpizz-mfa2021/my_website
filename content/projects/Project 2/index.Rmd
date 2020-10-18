@@ -18,11 +18,23 @@ tidyweather <- tidyweather %>%
          month = month(date),
          year = year(date))
 
-ggplot(tidyweather, aes(x=date, y = delta))+
-  geom_point()+
-  geom_smooth(color="red") +
-  theme_bw() +
-  labs (title = "Weather Anomalies") + facet_wrap(~Month)
+comparison <- tidyweather %>% 
+  filter(Year>= 1881) %>%     #remove years prior to 1881
+  #create new variable 'interval', and assign values based on criteria below:
+  mutate(interval = case_when(
+    Year %in% c(1881:1920) ~ "1881-1920",
+    Year %in% c(1921:1950) ~ "1921-1950",
+    Year %in% c(1951:1980) ~ "1951-1980",
+    Year %in% c(1981:2010) ~ "1981-2010",
+    TRUE ~ "2011-present"
+  ))
 
+ggplot(comparison, aes(x=delta, fill=interval))+
+  geom_density(alpha=0.2) +   #density plot with tranparency set to 20%
+  theme_bw() +                #theme
+  labs (
+    title = "Density Plot for Monthly Temperature Anomalies",
+    y     = "Density"         #changing y-axis label to sentence case
+  )
 
 ```
