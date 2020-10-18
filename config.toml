@@ -94,7 +94,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "About Me"
       subtitle = "A background about myself"
-      image = "pic01.jpg"
+      image = "img/pic01.jpg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
@@ -138,10 +138,9 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "My Projects"
-    subtitle = """I have recently been creating various projects in R. 
-    Click on the link below to see some of my projects!"""
-    buttonText = "Check out Projects"
+    title = "Check out my blogs"
+    subtitle = """Click on the link below to see some of my projects!"""
+    buttonText = "Let's Go!"
     url = "blogs"
 
 
