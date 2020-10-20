@@ -6,35 +6,6 @@ output: html_document
 In this analysis we will examine the delta of temperature anomalies in the weather, both historically and in the present.
 
 
-<pre class="r"><code>library(httr)
-library(readxl)
-library(vroom)
-weather &lt;- 
-  read_csv(&quot;https://data.giss.nasa.gov/gistemp/tabledata_v3/NH.Ts+dSST.csv&quot;, 
-           skip = 1, 
-           na = &quot;***&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   Year = col_double(),
-##   Jan = col_double(),
-##   Feb = col_double(),
-##   Mar = col_double(),
-##   Apr = col_double(),
-##   May = col_double(),
-##   Jun = col_double(),
-##   Jul = col_double(),
-##   Aug = col_double(),
-##   Sep = col_double(),
-##   Oct = col_double(),
-##   Nov = col_double(),
-##   Dec = col_double(),
-##   `J-D` = col_double(),
-##   `D-N` = col_double(),
-##   DJF = col_double(),
-##   MAM = col_double(),
-##   JJA = col_double(),
-##   SON = col_double()
-## )</code></pre>
 <pre class="r"><code>tidyweather &lt;- weather %&gt;%
 select(Year,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec)%&gt;%
 pivot_longer(cols = Jan:Dec,names_to =&quot;Month&quot;,values_to =&quot;delta&quot;)
@@ -62,7 +33,6 @@ ggplot(comparison, aes(x=delta, fill=interval))+
     title = &quot;Density Plot for Monthly Temperature Anomalies&quot;,
     y     = &quot;Density&quot;         #changing y-axis label to sentence case
   )</code></pre>
-<pre><code>## Warning: Removed 5 rows containing non-finite values (stat_density).</code></pre>
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+
 
 From 2011 to present, we see that the delta is significantly positive. Therefore, it is evident that temperatures are increasing. We must act before climates increase too high!
